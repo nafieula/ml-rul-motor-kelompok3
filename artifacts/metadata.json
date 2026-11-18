@@ -1,0 +1,42 @@
+{
+  "versi_model": "1.0.0",
+  "dibuat": "2026-11-18",
+  "fitur_input": [
+    "tipe_motor",
+    "beban_pct",
+    "arus_A",
+    "tegangan_V",
+    "suhu_belitan_C",
+    "getaran_rms_mm_s",
+    "kecepatan_rpm"
+  ],
+  "target": "rul_hari",
+  "tipe_motor_valid": [
+    "5.5kW",
+    "11kW",
+    "22kW"
+  ],
+  "threshold": {
+    "segera_ganti_hari": 14,
+    "pesan_pengganti_hari": 35
+  },
+  "metrik_validasi": {
+    "baseline_mae_semua": 52.45,
+    "baseline_mae_rul60": 31.65,
+    "final_mae_semua": 46.47,
+    "final_mae_rul60": 12.08
+  },
+  "metrik_test": {
+    "baseline_mae_semua": 55.03,
+    "baseline_mae_rul60": 30.38,
+    "final_mae_semua": 51.88,
+    "final_mae_rul60": 11.62
+  },
+  "versi_library": {
+    "python": "3.12.10",
+    "sklearn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "joblib": "1.6.0"
+  }
+}
