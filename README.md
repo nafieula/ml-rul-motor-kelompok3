@@ -1,6 +1,6 @@
 # Sisa Umur Pakai Motor Induksi (RUL) - Kelompok 3 MKB 5A
 
-**Kasus 3:** Sisa umur pakai motor induksi · **Aplikasi:** [tautan Streamlit] · **Video:** [tautan video]
+**Kasus 3:** Sisa umur pakai motor induksi · **Aplikasi:** https://ml-rul-motor-kelompok3-nafilanuradila.streamlit.app/ · **Video:** [tautan video]
 
 | Anggota | NIM | Bagian yang dikerjakan |
 |---|---|---|
