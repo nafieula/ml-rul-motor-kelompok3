@@ -4,8 +4,8 @@
 
 | Anggota | NIM | Bagian yang dikerjakan |
 |---|---|---|
-| [Nur Adila Putri] | [2402916] | EDA dan pembersihan data (notebook), API (FastAPI), aplikasi (Streamlit) |
-| [Nafila Ajmal] | [2400721] | model dan evaluasi (notebook), tes, dan deploy |
+| Nur Adila Putri | 2402916 | EDA dan pembersihan data (notebook), API (FastAPI), aplikasi (Streamlit) |
+| Nafila Ajmal | 2400721 | model dan evaluasi (notebook), tes, dan deploy |
 
 ## Masalah dan pengguna
 
@@ -35,8 +35,8 @@ Data dibagi **per `motor_id`** (70/15/15 = 210/45/45 motor), supaya motor di *te
 
 | Model | MAE ≤ 60 hari *validation* | MAE ≤ 60 hari *test* | MAE semua baris *validation* | MAE semua baris *test* |
 |---|---|---|---|---|
-| *Baseline*: regresi linear (sensor asli) | [31.65] | [30.38] | [52.45] | [55.03] |
-| Gradient boosting (`HistGradientBoostingRegressor`) + fitur turunan (final) | [12.08] | [11.62] | [46.47] | [51.88] |
+| *Baseline*: regresi linear (sensor asli) | 31.65 | 30.38 | 52.45 | 55.03 |
+| Gradient boosting (`HistGradientBoostingRegressor`) + fitur turunan (final) | 12.08 | 11.62 | 46.47 | 51.88 |
 
 Aturan status (dari waktu pengiriman motor pengganti 2–4 minggu): prediksi ≤ 14 hari → **segera ganti**;
 ≤ 35 hari (28 hari pengiriman + 7 hari cadangan) → **pesan pengganti sekarang**; selain itu → **aman**.
