@@ -1,6 +1,6 @@
 # Sisa Umur Pakai Motor Induksi (RUL) - Kelompok 3 MKB 5A
 
-**Kasus 3:** Sisa umur pakai motor induksi · **Aplikasi:** https://ml-rul-motor-kelompok3-nafilanuradila.streamlit.app/ · **Video:** [tautan video]
+**Kasus 3:** Sisa umur pakai motor induksi · **Aplikasi:** https://ml-rul-motor-kelompok3-nafilanuradila.streamlit.app/ · **Video:** https://drive.google.com/file/d/1iO8PulS7toVtteFuaHS-LFY52Hp-ME1a/view?usp=drivesdk
 
 | Anggota | NIM | Bagian yang dikerjakan |
 |---|---|---|
@@ -75,5 +75,5 @@ Struktur API dan antarmuka diadaptasi dari repositori praktisi [mkb-ml-p3](https
   pemesanan, yaitu saat motor mendekati rusak (MAE pada data test untuk RUL ≤ 60 hari: 11,62 hari).
 - Masukan di luar rentang data latih (mis. getaran > 8 mm/s) tetap dijawab, tetapi aplikasi menampilkan peringatan.
 - Ambang status 14 dan 35 hari adalah asumsi dari waktu pengiriman, belum dihitung dari biaya sebenarnya.
-- Pada data validation, [X]% motor yang sebenarnya bersisa umur ≤ 28 hari masih ditandai "aman" (terlewat), dan
-  [Y]% motor dengan sisa umur > 60 hari ditandai bukan "aman" (alarm palsu).
+- Pada data validation, 9,8% motor yang sebenarnya bersisa umur ≤ 28 hari masih ditandai "aman" (terlewat), dan
+  0,7% motor dengan sisa umur > 60 hari ditandai bukan "aman" (alarm palsu).
